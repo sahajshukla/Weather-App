@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: backend-config
+  namespace: default
+data:
+  MONGO_URI: "mongodb+srv://sahajshukla:VVK8FZqDJeE7ehdf@lat-long.kfl2w.mongodb.net/?retryWrites=true&w=majority&appName=Lat-Long"
+  WEATHER_API_URL: "https://api.openweathermap.org/data/2.5"

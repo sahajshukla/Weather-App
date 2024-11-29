@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #85c1e9, #d6eaf8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app {
+  text-align: center;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.form {
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #27ae60;
+}
+
+.error {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* Weather Card Styles */
+.weather-card {
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 12px;
+  color: white;
+  text-align: left;
+  display: inline-block;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Gradient classes based on temperature */
+.cold {
+  background: linear-gradient(to right, #4a90e2, #50c9c3);
+}
+
+.mild {
+  background: linear-gradient(to right, #f7b733, #fc4a1a);
+}
+
+.hot {
+  background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+
+.weather-card h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.weather-card p {
+  margin: 5px 0;
+}

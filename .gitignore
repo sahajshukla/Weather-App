@@ -1,0 +1,41 @@
+
+---
+
+### `.gitignore`
+
+```gitignore
+# Node.js
+node_modules/
+
+# Docker
+*.log
+*.dockerfile
+docker-compose.yml
+
+# Kubernetes
+.kube/
+
+# Environment Files
+.env
+
+# React Build
+/build/
+# React cache
+/.cache/
+
+# MongoDB Data
+/data/
+
+# OS generated files
+.DS_Store
+
+# IDE files
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# AWS files
+.aws/
+*.pem
