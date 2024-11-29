@@ -39,3 +39,6 @@ docker-compose.yml
 # AWS files
 .aws/
 *.pem
+
+# Terraform files excluded
+.terraform
