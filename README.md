@@ -26,5 +26,5 @@ Deployment is done via AWS infrastructure using EKS, with Docker and Kubernetes 
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/weather-app.git
+git clone https://github.com/sahajshukla/weather-app.git
 cd weather-app
